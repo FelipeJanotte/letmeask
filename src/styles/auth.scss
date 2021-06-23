@@ -61,8 +61,8 @@
       font-family: 'Poppins', sans-serif;
     }
 
-    form{
-      input{
+    form {
+      input {
         height: 50px;
         border-radius: 8px;
         padding: 0 16px;
@@ -70,11 +70,12 @@
         border: 1px solid #a8a8b3;
       }
 
-      button{
+      button {
         margin-top: 16px;
       }
 
-      button, input{
+      button,
+      input {
         width: 100%;
       }
     }
@@ -84,13 +85,13 @@
       color: #737380;
       margin-top: 16px;
 
-      a{
+      a {
         color: #e559f9;
       }
     }
   }
 
-  .create-room{
+  .create-room {
     margin-top: 64px;
     height: 50px;
     border-radius: 8px;
@@ -105,13 +106,13 @@
     cursor: pointer;
     border: 0;
 
-    transition: filter .2s;
+    transition: filter 0.2s;
 
-    img{
+    img {
       margin-right: 8px;
     }
 
-    &:hover{
+    &:hover {
       filter: brightness(0.9);
     }
   }
@@ -119,12 +120,12 @@
   .separator {
     font-size: 14px;
     color: #a8a8b3;
-    
+
     display: flex;
     align-items: center;
     margin: 32px 0;
 
-    &::before{
+    &::before {
       content: '';
       flex: 1;
       height: 1px;
@@ -132,7 +133,7 @@
       margin-right: 16px;
     }
 
-    &::after{
+    &::after {
       content: '';
       flex: 1;
       height: 1px;
